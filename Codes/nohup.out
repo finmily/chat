@@ -1,0 +1,84 @@
+info: socket.io started
+Express server listening on port 3000
+[90mGET / [36m302 [90m13ms - 56b[0m
+[90mGET /login [32m200 [90m12ms - 4.4kb[0m
+[90mGET /css/colors-fresh.css [36m304 [90m7ms[0m
+[90mGET /js/dd_roundies.js [36m304 [90m4ms[0m
+[90mGET /css/bm-custom-login-3.css [36m304 [90m4ms[0m
+[90mGET /js/jquery-1.9.1.min.js [36m304 [90m5ms[0m
+[90mGET /css/login.css [36m304 [90m5ms[0m
+[90mGET /js/dd_belated.js [36m304 [90m6ms[0m
+[90mGET /js/loginCheak.js [36m304 [90m6ms[0m
+[90mGET /image/main-bg.jpg [36m304 [90m3ms[0m
+[90mGET /image/bg-login.png [36m304 [90m4ms[0m
+[90mGET /image/register-now.png [36m304 [90m4ms[0m
+[90mGET /image/button-grad.png [36m304 [90m2ms[0m
+[90mGET /image/logo-register.png [36m304 [90m2ms[0m
+debug: client authorized
+info: handshake authorized HgQbOgOhR113izC6JfSI
+debug: setting request GET /socket.io/1/websocket/HgQbOgOhR113izC6JfSI
+debug: set heartbeat interval for client HgQbOgOhR113izC6JfSI
+debug: client authorized for 
+debug: websocket writing 1::
+debug: emitting heartbeat for client HgQbOgOhR113izC6JfSI
+debug: websocket writing 2::
+debug: set heartbeat timeout for client HgQbOgOhR113izC6JfSI
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client HgQbOgOhR113izC6JfSI
+debug: set heartbeat interval for client HgQbOgOhR113izC6JfSI
+[90mGET /images/button-grad-active.png [33m404 [90m2ms[0m
+encrypt: original: 123456
+encrypt: encrypted: 7c4a8d09ca3762af61e59520943dc26494f8941b
+logincheck_return: password match
+a@qq.com
+getUserInfo_return: succeed: [object Object]
+77777
+[90mPOST /login [32m200 [90m17ms - 52b[0m
+getUserFriends: get one friend: [object Object]
+getUserFriends: succeed
+[ { email: 'b@qq.com', username: 'b', signature: 'love is love' } ]
+[90mGET / [32m200 [90m118ms - 8.58kb[0m
+[90mGET /css/friendList_css.css [36m304 [90m2ms[0m
+[90mGET /image/msg.png [36m304 [90m4ms[0m
+[90mGET /image/friend.png [36m304 [90m2ms[0m
+[90mGET /image/person.png [36m304 [90m6ms[0m
+[90mGET /css/Iframe_css.css [36m304 [90m6ms[0m
+[90mGET /image/head.jpg [36m304 [90m5ms[0m
+[90mGET /css/common_css.css [36m304 [90m5ms[0m
+[90mGET /image/addFriendIcon.png [36m304 [90m6ms[0m
+[90mGET /image/groupIcon.png [36m304 [90m1ms[0m
+[90mGET /image/manage.png [36m304 [90m8ms[0m
+[90mGET /js/UiControl.js [36m304 [90m5ms[0m
+[90mGET /js/jquery.js [36m304 [90m6ms[0m
+[90mGET /js/mainWindowControl.js [36m304 [90m7ms[0m
+[90mGET /js/socket_on.js [36m304 [90m7ms[0m
+[90mGET /image/Right.png [36m304 [90m6ms[0m
+debug: served static content /socket.io.js
+[90mGET /js/NetWorkModel.js [36m304 [90m334ms[0m
+[90mGET /js/UserListControllor.js [36m304 [90m333ms[0m
+[90mGET /js/TalkingClass.js [36m304 [90m2ms[0m
+[90mGET /image/Waiting.gif [36m304 [90m4ms[0m
+[90mGET /js/VideoControl.js [36m304 [90m3ms[0m
+debug: client authorized
+info: handshake authorized WK_4Om-CQoKIUCcGJfSJ
+[90mGET /image/deleteIcon.png [36m304 [90m2ms[0m
+[90mGET /image/a@qq.com.png [36m304 [90m1ms[0m
+debug: setting request GET /socket.io/1/websocket/WK_4Om-CQoKIUCcGJfSJ
+debug: set heartbeat interval for client WK_4Om-CQoKIUCcGJfSJ
+debug: client authorized for 
+debug: websocket writing 1::
+3333
+false
+debug: sending data ack packet
+debug: websocket writing 6:::1+[1]
+debug: websocket writing 5:::{"name":"offline","args":[[]]}
+[90mGET /image/b@qq.com.png [36m304 [90m3ms[0m
+[90mGET /image/starVideo.png [36m304 [90m1ms[0m
+[90mGET /image/closeIcon.png [36m304 [90m1ms[0m
+(node) Buffer.write(string, encoding, offset, length) is deprecated. Use write(string[, offset[, length]][, encoding]) instead.
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: ENOENT: no such file or directory, open 'Codes/public/image/5081035d5844e159475d4bce7df698ab.JPG'
+    at Error (native)
